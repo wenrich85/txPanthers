@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "BYx0/UTBx1RVK1wCn93rvnHvUJVCjuhGFLCbuuNzvpBY0HbrnVqxAYMuFX5IcD8si7MqOvVGYjlDzFt/nmuqzg==",
+  "success": true,
+  "projectFilePath": "/home/wrichards/Development/c_sharp/txPanthers/psqlTest/psqlTest.csproj",
+  "expectedPackageFiles": [
+    "/home/wrichards/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/wrichards/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/home/wrichards/.nuget/packages/npgsql/8.0.1/npgsql.8.0.1.nupkg.sha512",
+    "/home/wrichards/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.0/microsoft.aspnetcore.app.ref.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
