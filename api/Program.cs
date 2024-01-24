@@ -1,3 +1,4 @@
+using api.Components.PlayerManager;
 using TxPanthers.Api.Data;
 using TxPanthers.Api.Services;
 using TxPanthers.Api.Repositories;
@@ -16,6 +17,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DataContext>();
 builder.Services.AddScoped<IMemberRepository, MemberRepository>();
+builder.Services.AddScoped<IPlayerRepository, PlayerRepository>();
 builder.Services.AddControllers().AddJsonOptions(x => 
 {
     x.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());

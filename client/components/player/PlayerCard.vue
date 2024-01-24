@@ -7,13 +7,15 @@
       <h5 class="card-title">{{ player.name }}</h5>
       <p class="card-text">Age: {{ player.age }}</p>
       <p class="card-text">Position: {{ player.position }}</p>
-      <p class="card-text">{{ defaultImage }}</p>
     </div>
   </div>
 </template>
 
 <script>
 export default {
+  routeRules: {
+    '/': {prerender: true},
+  },
   props: {
     player: {
       type: Object,

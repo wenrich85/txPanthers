@@ -1,6 +1,7 @@
 
 using Microsoft.EntityFrameworkCore;
 using TxPanthers.Api.Models;
+using api.Components.PlayerManager;
 
 
 namespace TxPanthers.Api.Data
@@ -21,6 +22,7 @@ public class DataContext : DbContext
         }
 
         public DbSet<MemberDetails> Members {get; set;}
+        public DbSet<PlayerDetails> Players {get; set;}
     }
 
 }

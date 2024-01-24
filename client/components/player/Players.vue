@@ -32,7 +32,7 @@ export default {
         name: "Player 1",
         age: 15,
         position: "Guard",
-        gender: 'f'
+        gender: !!(number % 2) ? "m" : "f"
       };
     },
   },
